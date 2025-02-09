@@ -23,7 +23,7 @@ This is alanding page that contains the links to my AltSchool CSS Assignment.
 
 ## Live Demo
 
-Check out the live demo [here]().
+Check out the live demo [here](https://janealtschoolassignment.netlify.app/).
 
 ## Contirbuting
 
@@ -31,7 +31,7 @@ Feel free to clone and fork this repository. You can also submit pull requests. 
 
 ## Acknowledgements
 
-- [AltSchool](https://learn.altschoolafrica.com/courses/) for organizing this challenge.
+- [AltSchool](https://learn.altschoolafrica.com/) for organizing this challenge.
 - Thank you to Oluwasetemi Ojo and the AltSchool mentors and managers for their contributions and guidance towards the successful completion of this assignment.
 
 Feel free to customize it further to fit your needs! If you have any specific details you'd like to add or change, let me know.
