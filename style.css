@@ -5,8 +5,7 @@
     font-family: "Roboto", serif
 }
 .container{
-    background-image: url(./abstract.png);
-    background-repeat:no-repeat ;
+    background-image:linear-gradient(to right, rgba(255,0,0,0), rgb(204, 0, 255)) ;
     display: flex;
     align-items: center;
     justify-content: center;
