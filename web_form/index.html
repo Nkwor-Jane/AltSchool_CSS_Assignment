@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Web Form</title>
+</head>
+<body>
+    <section class="section">
+        
+        <div class="first-div">
+            <div>
+                <img src="./logo.png" alt="Logo">
+            </div>
+            <div>
+                <h3>For Individuals</h3>
+                <div class="first-div-p">
+                    <p>Start benefiting from the wellness experiences.
+                        For companies looking on increasing productivity, and improving organization wellness.
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+
+        <div >
+            <div class="form">
+                <form >
+                    <div class="input-flex">
+                        <div>
+                            <label for="f_name">First Name</label>
+                            <input type="text" name="f_name" placeholder="John">
+                        </div>
+                        <div>
+                            <label for="l_name">Last Name</label>
+                            <input type="text" name="l_name" placeholder="Doe">
+                        </div>
+                    </div>
+                    <div class="input_flex_2">
+                        <div class="gender_div">
+                            <label for="gender">Gender</label>
+                            <select name="gender" title="gender" class="gender_select">
+                                <option value="select">Select here</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="dob">Date of Birth</label>
+                            <input type="date" name="dob" class="date-container">
+                        </div>
+                    </div>
+                    <div class="input-flex">
+                        <div>
+                            <label for="weight">Weight(KG)</label>
+                            <input type="number" name="weight" placeholder="Enter Weight">
+                        </div>
+                        <div>
+                            <label for="weight">Height(CM)</label>
+                            <input type="number" name="height" placeholder="Enter Height">
+                        </div>
+                    </div>
+                <div class="activity">
+                    <label for="activity">Activity Level</label><br>
+                    <select name="activity" title="activity" class="activity">
+                        <option value="select">Select here</option>
+                        <option value="high">High</option>
+                        <option value="medium">Medium</option>
+                        <option value="low">Low</option>
+                    </select>
+                </div>
+    
+                <div class="password">
+                    <label for="password">Password</label><br>
+                    <input type="password" name="password" title="password" >
+                </div>
+    
+                <button type="submit">Register</button>
+                </form>
+            </div>
+                <p class="terms-p">By clicking Register, you agrees to our <span>Terms of use</span>
+                and our <span>Privacy Policy</span></p>
+        </div>
+        
+
+    </section>
+</body>
+</html>
